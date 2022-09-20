@@ -1,17 +1,47 @@
 :root{
     --cor-principal: (#252B27);
-    --font: (font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;)
+    --cor-secundaria:(#AAA);
+    --cor-de-fundo: (#B8E8F7);
+    --fundo-tela-login: (#ECF6F7);
+    --fundo_forms: (#ecf6f7);
+    --font: 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container__login{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.info__login{
+    margin-left: 200px;
 }
 
 .lista__info{
     color: var(--cor-principal);
     text-align: left;
-    font-family: var(--font);
+    list-style-type: none;
 }
 
-.lista__titulo {
-    font-size: 15px;
-    font-weight: bold;
+.lista__info li{
+    display: grid;
+    grid-template-columns: 10% 80%;
+}
+
+.item__lista {
+    margin-top: 20px;
 }
 
 .lista__texto {
@@ -20,8 +50,31 @@
 
 .imagem__info{
     width: 120px;
-    position: relative;
+    text-align: left;
     left: 50%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0 30px 0;
+}
+
+.barra__superior{
+    height: 100px;
+}
+
+.img__pmf{
+    width: 120px;
+    align-items: center;
+}
+
+.acess__titulo{
+    color: var(--cor-secundaria);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user__login{
+    background-color: var(--fundo-tela-login);
+    margin-right: 400px;
+}
+
+.login__campos{
+    padding: 5px 20px 5px 5px;
 }
