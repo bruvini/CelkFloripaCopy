@@ -1,0 +1,19 @@
+:root{
+    --cor-principal: (#252B27);
+    --font: (font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;)
+}
+
+.lista__info{
+    color: var(--cor-principal);
+    text-align: left;
+    font-family: var(--font);
+}
+
+.lista__titulo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lista__texto {
+    font-size: 12px;
+}
