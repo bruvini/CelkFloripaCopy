@@ -17,3 +17,10 @@
 .lista__texto {
     font-size: 12px;
 }
+
+.imagem__info{
+    width: 120px;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;}
