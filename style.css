@@ -1,80 +1,77 @@
 :root{
-    --cor-principal: (#252B27);
-    --cor-secundaria:(#AAA);
-    --cor-de-fundo: (#B8E8F7);
-    --fundo-tela-login: (#ECF6F7);
-    --fundo_forms: (#ecf6f7);
-    --font: 
+    /*CORES*/
+    --cor-de-fundo: #F3F5F9;
+    --fundo-input: #ECF6F7;
+    --cor-terciaria: #EFEBEB;
+    --cor-botao: #0DB8B7;
+    --letra-botao: #FFFFFF;
+    --borda: #4EA3A2;
+    --cor-primaria: #000000;
+    /*FONTE*/
+    --fonte: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-principal);
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+body{
     font-size: 12px;
+    font-family: var(--fonte);
+    background-color: var(--cor-de-fundo);
 }
 
-.container__login{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.principal{
+    display: flex;
+    margin: 11em 0 0 26em;
 }
 
-.info__login{
-    margin-left: 200px;
-}
-
-.lista__info{
-    color: var(--cor-principal);
-    text-align: left;
-    list-style-type: none;
-}
-
-.lista__info li{
-    display: grid;
-    grid-template-columns: 10% 80%;
-}
-
-.item__lista {
+.info__lista{
     margin-top: 20px;
 }
 
-.lista__texto {
-    font-size: 12px;
+.container__itens{
+    margin-bottom: 30px;
 }
 
-.imagem__info{
+.container__info{
+    margin-left: 1em;
+}
+
+.info__logo, 
+.login__logo {
     width: 120px;
-    text-align: left;
-    left: 50%;
-    margin: 20px 0 30px 0;
 }
 
-.barra__superior{
-    height: 100px;
+.container__itens{
+    display: flex;
 }
 
-.img__pmf{
-    width: 120px;
-    align-items: center;
-}
-
-.acess__titulo{
-    color: var(--cor-secundaria);
-    font-size: 13px;
+.info__titulo{
+    font-size: 16px;
     font-weight: bold;
 }
 
-.user__login{
-    background-color: var(--fundo-tela-login);
-    margin-right: 400px;
+.login{
+    margin-right: 300px;
 }
 
-.login__campos{
-    padding: 5px 20px 5px 5px;
+.caixa{
+    border: 1px solid var(--borda);
+}
+
+.login__info{
+    font-size: 13px;
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.login__input{
+    display: grid;
+}
+
+.navegadores{
+    display: flex;
+}
+
+.nav__icones{
+    text-align: center;
+    padding: 1em;
+    display: none;
 }

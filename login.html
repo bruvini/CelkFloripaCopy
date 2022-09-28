@@ -5,75 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Celk Saúde</title>
+    <title>Celk Saúde - Cópia</title>
 </head>
 
 <body>
-    <section class="barra__superior">
-
-    </section>
-    <section class="container__login">
-        <div class="info__login">
-            <img src="img/logocelk.png" alt="Logo do Celk" class="imagem__info">
-            <ul class="lista__info">
-                <li class="item__lista">
-                    <img src="img/monitor.png" alt="Icone de monitor" class="imagem__lista">
-                    <div class="bloco__texto">
-                        <h3 class="lista__titulo">Resolução de Tela</h3>
-                        <p class="lista__texto">Para uma melhor experiência, utilize uma resolução mínima de 1024x768
-                        </p>
+    <span class="principal">
+        <div class="info">
+            <img src="/img/logocelk.png" alt="Logo da Celk" class="info__logo">
+            <ul class="info__lista">
+                <li class="info__item">
+                    <div class="container__itens">
+                        <img src="/img/monitor.png" alt="monitor" class="img__item">
+                        <div class="container__info">
+                            <h3 class="info__titulo">Resolução de Tela</h3>
+                            <p class="info__desc">Para uma melhor experiência, utilize uma resolução mínima de 1024x768
+                            </p>
+                        </div>
                     </div>
-                </li>
-                <li class="item__lista">
-                    <img src="img/globo.png" alt="Icone de planeta" class="imagem__lista">
-                    <div class="bloco__texto">
-                        <h3 class="lista__titulo">Navegador</h3>
-                        <p class="lista__texto">O sistema é melhor visualizado com os navegadores Firefox e Chrome,
-                            clique
-                            nas imagens ao lado para baixar</p>
+                    <div class="container__itens">
+                        <img src="/img/globo.png" alt="Navegador" class="img__item">
+                        <div class="container__info">
+                            <h3 class="info__titulo">Navegador</h3>
+                            <div class="navegadores">
+                                <p class="info__desc">O sistema é melhor visualizado com os navegadores Firefox e
+                                    Chrome,
+                                    clique nas imagens ao lado para baixar
+                                </p>
+                                <div class="nav__icones">
+                                    <img src="/img/chrome.png" alt="Logo Chrome" class="img__nav">
+                                    <p class="nome__nav">Chrome</p>
+                                </div>
+                                <div class="nav__icones">
+                                    <img src="/img/firefox.png" alt="Logo Chrome" class="img__nav">
+                                    <p class="nome__nav">Firefox</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </li>
-                <li class="item__lista">
-                    <img src="img/celk.png" alt="Icone da Celk" class="imagem__lista">
-                    <div class="bloco__texto">
-                        <h3 class="lista__titulo">Celk Sistemas</h3>
-                        <p class="lista__texto">Clique no logo para conhecer a empresa</p>
+                    <div class="container__itens">
+                        <a href="#" class="link__item"><img src="/img/celk.png" alt="monitor" class="img__item"></a>
+                        <div class="container__info">
+                            <h3 class="info__titulo">Celk Sistemas</h3>
+                            <p class="info__desc">Clique no logo para conhecer a empresa</p>
+                        </div>
                     </div>
-                </li>
-                <li class="item__lista">
-                    <img src="img/monitor.png" alt="Icone de monitor" class="imagem__lista">
-                    <div class="bloco__texto">
-                        <h3 class="lista__titulo">Suporte</h3>
-                        <p class="lista__texto">Ligue 0800 500 6677 / Whatsapp (48) 99968-0583 / Email: suporte@celk.net
-                        </p>
+                    <div class="container__itens">
+                        <img src="/img/emoticom.png" alt="monitor" class="img__item">
+                        <div class="container__info">
+                            <h3 class="info__titulo">Suporte</h3>
+                            <p class="info__desc">Ligue 0800 500 6677 / Whatsapp (48) 99968-0583 / Email:
+                                suporte@celk.net</p>
+                        </div>
                     </div>
                 </li>
             </ul>
         </div>
-        <div class="user__login">
-            <fieldset class="form__login">
-                <div class="img__login__">
-                    <img src="img/florianopolis.png" alt="Logo de Florianópolis" class="img__pmf">
+        <div class="login">
+            <div class="caixa">
+                <img src="/img/florianopolis.png" alt="logo florianopolis" class="login__logo">
+                <h3 class="login__info">Acessar o Sistema</h3>
+                <div class="login__input">
+                    <input type="text" placeholder="Usuário" class="login__inputs">
+                    <input type="password" placeholder="Senha" class="login__inputs">
+                    <a href="#" class="login__botao">Acessar</a>
                 </div>
-                <div class="acess__titulo">
-                    Acessar o Sistema
-                </div>
-                <div class="login__campos">
-                    <input placeholder="Usuário" type="text" size="28" value="" name="login" id="id3">
-                </div>
-                <div class="login__campos">
-                    <input placeholder="Senha" type="password" size="28" value="" name="senha" id="id5">
-                </div>
-                <input type="submit" name="btnAcessar" id="id6" value="Acessar" class="botao__enviar">
-            </fieldset>
-
+                <h3 class="login__esqueceu-senha">
+                    Esqueci minha senha
+                </h3>
+            </div>
+            <h3 class="login__versao">
+                Versão 3.1.148 | i-024ed26dc4116c745
+            </h3>
         </div>
-        </div>
-        </fieldset>
-        </div>
-
-    </section>
+    </span>
 </body>
 
 </html>
